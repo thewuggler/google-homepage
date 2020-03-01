@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="style.css">
         <link rel="icon" href="https://github.com/iamamitito/google-homepage/blob/master/images/favicon.ico">
+        <script src="https://kit.fontawesome.com/a2bd233182.js" crossorigin="anonymous"></script>
         <title>Google</title>
     </head>
     <header>
@@ -16,24 +17,24 @@
         <div id="search">
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
             <div id="search-bar">
+                <i class="fas fa-search"></i>
                 <input id="search-field" type="text">
+                <i class="fas fa-microphone"></i>
             </div>
             <div id="button-container">
-                <input type="button" value="Google Search">
-                <input type="button" value="I'm Feeling Lucky">
+                <input class="search-button" type="button" value="Google Search">
+                <input class="search-button" type="button" value="I'm Feeling Lucky">
             </div>
         </div>
         <footer>
-            <span id="right-foot">
-                <a href="">Privacy</a>
-                <a href="">Terms</a>
-                <a href="">Settings</a>
-            </span>
-            <span id="left-foot">
-                <a href="">Advertising</a>
-                <a href="">Business</a>
-                <a href="">How Search Works</a>
-            </span>
+            <ul>
+                <li class="left-foot"><a href="">Advertising</a></li>
+                <li class="left-foot"><a href="">Business</a></li>
+                <li class="left-foot"><a href="">How Search Works</a></li>
+                <li class="right-foot"><a href="">Privacy</a></li>
+                <li class="right-foot"><a href="">Terms</a></li>
+                <li class="right-foot"><a href="">Settings</a></li>
+            </ul>
         </footer>
     </body>
 </html>
